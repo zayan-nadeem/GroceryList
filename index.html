@@ -20,7 +20,7 @@
 
     <md-content class="md-padding" layout="row" layout-wrap>
      <md-card ng-repeat="groceryitem in groceryitems" flex="30">
-       <!--img ng-src="{{ groceryitem.image }}"/-->
+       <img ng-src="{{ groceryitem.category }}">
        <md-card-content>
          <div class="groceryitem-info">
            <h2 class="md-title">{{ groceryitem.item }}</h2>
